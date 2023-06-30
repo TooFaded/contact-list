@@ -34,9 +34,9 @@ function ContactList({ setSelectedContactId }) {
       </thead>
       <tbody>
         <tr>
-          <td>Name</td>
-          <td>Email</td>
-          <td>Phone</td>
+          <td className="headings">Name</td>
+          <td className="headings">Email</td>
+          <td className="headings">Phone</td>
         </tr>
         {contacts.map((contact) => {
           return (
